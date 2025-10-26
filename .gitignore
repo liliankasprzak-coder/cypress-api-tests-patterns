@@ -1,0 +1,46 @@
+## Dependencies
+node_modules/
+
+## Cypress artifacts
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+## Excluir pastas não relacionadas a API patterns (testes base e UI)
+cypress/e2e/exercicio1_APIs_cenarios/
+cypress/e2e/exercicio1_APIs_tests/
+cypress/e2e/exercicio2_commitquality_cenarios/
+cypress/e2e/exercicio2_commitquality_cenarios-patterns/
+cypress/e2e/exercicio2_commitquality_tests/
+cypress/e2e/exercicio2_commitquality_tests-patterns/
+cypress/e2e/loja-shopping/
+
+## Fixtures e support de UI
+cypress/fixtures/data-testids.json
+cypress/fixtures/test-file.pdf
+cypress/support/commands-exercicio2.js
+
+## Backups and archives
+*.zip
+backup-*.zip
+.backup-temp/
+
+## Editor/OS
+.vscode/
+.idea/
+.history/
+.DS_Store
+Thumbs.db
+
+## Temp
+.temp/
+.tmp*
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Environment files
+.env
+.env.*
