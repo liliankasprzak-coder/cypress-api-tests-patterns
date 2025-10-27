@@ -9,6 +9,8 @@
 [![Cypress Tests](https://img.shields.io/badge/tests-250%20passing-brightgreen)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
 [![Design Patterns](https://img.shields.io/badge/patterns-Builder%20%7C%20Factory%20%7C%20Strategy-blue)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
 
+➡️ **[QUICKSTART - Guia Rápido de 3 Passos](QUICKSTART.md)**
+
 ---
 
 ## Sobre o Projeto
