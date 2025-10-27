@@ -39,7 +39,7 @@ Os testes utilizam o serviço público JSONPlaceholder (POST/PUT/PATCH) e seguem
 cypress-api-tests-patterns/
 ├── cypress/
 │   ├── e2e/
-│   │   ├── exercicio1_APIs_cenarios_patterns/   # Cenários refatorados
+│   │   ├── exercicio1_APIs_cenarios_patterns/   # Cenários Gherkin salvos em .txt (refatorados)
 │   │   └── exercicio1_APIs_patterns/            # Testes com patterns (.cy.js)
 │   ├── fixtures/
 │   │   └── schemas/                             # JSON Schemas para validação
