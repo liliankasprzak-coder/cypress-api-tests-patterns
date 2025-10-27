@@ -9,7 +9,7 @@
 [![Cypress Tests](https://img.shields.io/badge/tests-250%20passing-brightgreen)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
 [![Design Patterns](https://img.shields.io/badge/patterns-Builder%20%7C%20Factory%20%7C%20Strategy-blue)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
 
-➡️ **[QUICKSTART - Guia Rápido de 3 Passos](QUICKSTART.md)**
+**[QUICKSTART - Guia Rápido de 3 Passos](QUICKSTART.md)**
 
 ---
 
@@ -25,12 +25,12 @@ Este repositório contém **250 testes automatizados** com Cypress, aplicando De
 
 ### O que está incluído
 
-✅ **27 testes de API** (JSONPlaceholder - POST/PUT/PATCH)  
-✅ **29 testes de Data Layer** (E-commerce tracking)  
-✅ **194 testes de UI** (CommitQuality.com)  
-✅ **20 testes com Design Patterns** aplicados  
-✅ **Cenários Gherkin** documentados  
-✅ **Comandos customizados** com Faker.js  
+- 27 testes de API (JSONPlaceholder - POST/PUT/PATCH)  
+- 29 testes de Data Layer (E-commerce tracking)  
+- 194 testes de UI (CommitQuality.com)  
+- 20 testes com Design Patterns aplicados  
+- Cenários Gherkin documentados  
+- Comandos customizados com Faker.js
 
 ### Objetivos
 - Demonstrar aplicação profissional de Design Patterns
@@ -210,15 +210,15 @@ cy.testarResponsividade('body');
 
 ## Resultados dos Testes
 
-### Status Atual: ✅ **250/250 testes passando (100%)**
+### Status Atual: 250/250 testes passando (100%)
 
 | Categoria | Testes | Status |
 |-----------|--------|--------|
-| APIs com Patterns | 27 | ✅ 100% |
-| Data Layer | 9 | ✅ 100% |
-| Data Layer + Patterns | 20 | ✅ 100% |
-| UI (CommitQuality) | 194 | ✅ 100% |
-| **TOTAL** | **250** | **✅ 100%** |
+| APIs com Patterns | 27 | 100% |
+| Data Layer | 9 | 100% |
+| Data Layer + Patterns | 20 | 100% |
+| UI (CommitQuality) | 194 | 100% |
+| **TOTAL** | **250** | **100%** |
 
 **Duração total:** ~10 minutos  
 **Última execução:** 27/10/2025
