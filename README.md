@@ -1,50 +1,85 @@
-# Cypress API Tests - Design Patterns
+<div align="center">
 
-> Testes automatizados com Cypress aplicando Design Patterns (Builder, Factory, Strategy)
+# 🎨 Cypress API Tests - Design Patterns
+
+### Testes automatizados com Cypress aplicando Design Patterns profissionais
 
 **Autora:** Lilian Kasprzak  
 **Função:** Analista de QA  
 **Data:** Outubro 2025
 
-[![Cypress Tests](https://img.shields.io/badge/tests-250%20passing-brightgreen)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
-[![Design Patterns](https://img.shields.io/badge/patterns-Builder%20%7C%20Factory%20%7C%20Strategy-blue)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
+---
 
-**[QUICKSTART - Guia Rápido de 3 Passos](QUICKSTART.md)**
+[![Cypress](https://img.shields.io/badge/Cypress-15.5.0-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://cypress.io)
+[![Tests](https://img.shields.io/badge/tests-250%20passing-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
+[![Patterns](https://img.shields.io/badge/Design%20Patterns-5%2B-9C27B0?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/liliankasprzak-coder/cypress-api-tests-patterns/actions)
+
+➡️ **[QUICKSTART - Guia Rápido de 3 Passos](QUICKSTART.md)** ⚡
+
+</div>
 
 ---
 
-## Sobre o Projeto
+## 🎯 Sobre o Projeto
 
-Este repositório contém **250 testes automatizados** com Cypress, aplicando Design Patterns profissionais:
+Este repositório demonstra **aplicação profissional de Design Patterns** em testes automatizados com Cypress, contendo **250 testes** com 100% de aprovação.
 
-- **Builder Pattern** - Construção fluente de produtos e eventos
-- **Factory Pattern** - Criação padronizada de eventos de data layer
-- **Strategy Pattern** - Validações customizáveis e encadeadas
-- **Page Object Pattern** - Organização de helpers e pages
-- **Command Pattern** - Comandos Cypress reutilizáveis
+<div align="center">
 
-### O que está incluído
+### 🏗️ Design Patterns Implementados
 
-- 27 testes de API (JSONPlaceholder - POST/PUT/PATCH)  
-- 29 testes de Data Layer (E-commerce tracking)  
-- 194 testes de UI (CommitQuality.com)  
-- 20 testes com Design Patterns aplicados  
-- Cenários Gherkin documentados  
-- Comandos customizados com Faker.js
+| Pattern | Uso | Benefício |
+|:---|:---|:---|
+| 🧱 **Builder** | Construção fluente de produtos e eventos | Código limpo e legível |
+| 🏭 **Factory** | Criação padronizada de eventos | Reutilização e consistência |
+| 🎯 **Strategy** | Validações customizáveis | Flexibilidade e manutenibilidade |
+| 📄 **Page Object** | Organização de pages | Separação de responsabilidades |
+| ⚡ **Command** | Comandos Cypress reutilizáveis | DRY (Don't Repeat Yourself) |
 
-### Objetivos
-- Demonstrar aplicação profissional de Design Patterns
-- Código reutilizável, manutenvel e escalável
-- 100% dos testes passando (250/250)
+### 📊 Cobertura de Testes
+
+</div>
+
+```
+┌─────────────────────┬────────┬──────────┐
+│ Categoria           │ Testes │ Status   │
+├─────────────────────┼────────┼──────────┤
+│ 🔌 API Tests        │   27   │ ✅ 100%  │
+│ 📦 Data Layer       │   29   │ ✅ 100%  │
+│ 🖥️  UI Tests        │  194   │ ✅ 100%  │
+│ 🎨 Design Patterns  │   20   │ ✅ 100%  │
+├─────────────────────┼────────┼──────────┤
+│ TOTAL               │  250   │ ✅ 100%  │
+└─────────────────────┴────────┴──────────┘
+```
+
+### ✨ Recursos
+
+- ✅ 27 testes de API (JSONPlaceholder - POST/PUT/PATCH)  
+- ✅ 29 testes de Data Layer (E-commerce tracking)  
+- ✅ 194 testes de UI (CommitQuality.com)  
+- ✅ 20 testes com Design Patterns aplicados  
+- ✅ Cenários Gherkin (BDD) documentados  
+- ✅ Comandos customizados com Faker.js  
+- ✅ CI/CD com GitHub Actions
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- **Cypress** - Framework de testes de API
-- **JavaScript** - Linguagem de programação
-- **Node.js** - Ambiente de execução
-- **Design Patterns** - Builder, Page Object, Command
+<div align="center">
+
+| Tecnologia | Versão | Descrição |
+|:---:|:---:|:---|
+| ![Cypress](https://img.shields.io/badge/Cypress-15.5.0-17202C?logo=cypress&logoColor=white) | `^15.5.0` | Framework de testes E2E |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black) | ES6+ | Linguagem de programação |
+| ![Faker](https://img.shields.io/badge/Faker.js-10.1.0-FF6B6B?logo=npm&logoColor=white) | `^10.1.0` | Geração de dados fake |
+| ![AJV](https://img.shields.io/badge/AJV-8.17.1-23C4DD?logo=json&logoColor=white) | `^8.17.1` | Validação JSON Schema |
+| ![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&logoColor=white) | 18.x | Runtime JavaScript |
+
+</div>
 
 ---
 
